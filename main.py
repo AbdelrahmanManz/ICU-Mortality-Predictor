@@ -15,7 +15,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.utils import resample
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.decomposition import PCA
-from collections import Counter
+import statsmodels.imputation.mice as smi
+import pickle
+
 directory = 'set-b'
 
 
@@ -156,6 +158,14 @@ def formatDataWithAgg():
 
 train = []
 test = []
+def impute(data):
+    imp = smi.MICEData(data)
+    imp.update_all(20)
+    #the MICEData object stores the data in the data attribute
+    impute = imp.data
+    print(impute)
+    return impute
+
 def imputate():
     global train, test
     # df = pd.read_csv('ReformattedSet.csv', sep=',', header=None, names=["RecordID","Age","BUN","Creatinine","DiasABP","FiO2","GCS","Glucose","HCO3","HCT","HR","ICUType","K","MAP","Mg","Na","PaCO2","PaO2","Platelets","Gender","SysABP","Temp","Urine","WBC","Weight","pH","death"])
@@ -165,14 +175,26 @@ def imputate():
     df2 = pd.read_csv('ReformattedTest.csv', sep=',', header=None, names=["RecordID", "Age", "minBUN", "maxBUN", "avgBUN", "BUN", "minCreatinine", "maxCreatinine", "avgCreatinine", "Creatinine", "minDiasABP", "maxDiasABP", "avgDiasABP", "DiasABP", "minFiO2", "maxFiO2", "avgFiO2", "FiO2", "minGCS", "maxGCS", "avgGCS", "GCS", "minGlucose", "maxGlucose", "avgGlucose", "Glucose", "minHCO3", "maxHCO3", "avgHCO3", "HCO3", "minHCT", "maxHCT", "avgHCT", "HCT", "minHR", "maxHR", "avgHR", "HR", "minICUType", "maxICUType", "avgICUType", "ICUType", "minK", "maxK", "avgK", "K", "minMAP", "maxMAP", "avgMAP", "MAP", "minMg", "maxMg", "avgMg", "Mg", "minNa", "maxNa", "avgNa", "Na", "minPaCO2", "maxPaCO2", "avgPaCO2", "PaCO2", "minPaO2", "maxPaO2", "avgPaO2", "PaO2", "minPlatelets", "maxPlatelets", "avgPlatelets", "Platelets", "Gender", "minSysABP", "maxSysABP", "avgSysABP", "SysABP", "minTemp", "maxTemp", "avgTemp", "Temp", "minUrine", "maxUrine", "avgUrine", "Urine", "minWBC", "maxWBC", "avgWBC", "WBC", "minWeight", "maxWeight", "avgWeight", "Weight", "minpH", "maxpH", "avgpH", "pH", "death"])
     #TODO: for ICUTYPE
     # df = df.loc[df['ICUType'] == 1]
-    # df2 = df2.loc[df2['ICUType'] == 5]
+    # df2 = df2.loc[df2['ICUType'] == 1]
     ##################
-    values = df.values
-    values2 = df2.values
-    imputer = SimpleImputer()
-    train = imputer.fit_transform(values)
-    test = imputer.fit_transform(values2)
+    # values = df.values
+    # values2 = df2.values
+    # imputer = SimpleImputer()
+    # train = imputer.fit_transform(values)
+    # test = imputer.fit_transform(values2)
+    # #################################################
+    # traindf = impute(df)
+    # testdf = impute(df2)
+    # traindf.to_pickle("./traindf.pkl")
+    # testdf.to_pickle("./testdf.pkl")
+    #################
+    traindf = pd.read_pickle("./traindf.pkl")
+    testdf = pd.read_pickle("./testdf.pkl")
+    # testdf = testdf.loc[df2['ICUType'] == 4]
+    ###################################################
 
+    train = traindf.values
+    test = testdf.values
     # FeatureEngineering(df)
     # count the number of NaN values in each column
     # print(np.isnan(train).sum())
@@ -374,8 +396,6 @@ def xgbTrain():
         'gamma': [0]
     }
 
-
-
     # Instantiate the grid search model
     grid_search = GridSearchCV(estimator=xgb, param_grid=param_grid,
                                cv=3, n_jobs=1, verbose=2)
@@ -385,13 +405,13 @@ def xgbTrain():
     Y_pred = []
     for insta in X_test:
         if insta[38] == 1:
-            Y_pred.append(grid_search.predict_proba(insta.reshape(1, -1))[:, 1] >= 0.14759999999999998)
+            Y_pred.append(grid_search.predict_proba(insta.reshape(1, -1))[:, 1] >= 0.20879999999999999)
         elif insta[38] == 2:
-            Y_pred.append(grid_search.predict_proba(insta.reshape(1, -1))[:, 1] >= 0.3666)
+            Y_pred.append(grid_search.predict_proba(insta.reshape(1, -1))[:, 1] >= 0.2178)
         elif insta[38] == 3:
-            Y_pred.append(grid_search.predict_proba(insta.reshape(1, -1))[:, 1] >= 0.18239999999999998)
+            Y_pred.append(grid_search.predict_proba(insta.reshape(1, -1))[:, 1] >= 0.252)
         elif insta[38] == 4:
-            Y_pred.append(grid_search.predict_proba(insta.reshape(1, -1))[:, 1] >= 0.15899999999999997)
+            Y_pred.append(grid_search.predict_proba(insta.reshape(1, -1))[:, 1] >= 0.21)
     Y_pred = np.asarray(Y_pred)
     # Y_pred = (grid_search.predict_proba(X_test)[:, 1] >= 0.24899999999999997)  # with agg
     # Y_pred = (grid_search.predict_proba(X_test)[:, 1] >= 0.3126) #without upsampling
@@ -416,9 +436,9 @@ def xgbTrain():
     #     i+=1
     # print("Keys: ", Counter(icus).keys())  # equals to list(set(words))
     # print("Values: ",Counter(icus).values())  # counts the elements' frequency
-    skplt.metrics.plot_confusion_matrix(Y_test, Y_pred, normalize=True)
+    # skplt.metrics.plot_confusion_matrix(Y_test, Y_pred, normalize=True)
     # skplt.metrics.plot_precision_recall_curve(Y_test, grid_search.predict_proba(X_test))
-    # skplt.metrics.plot_roc_curve(Y_test, grid_search.predict_proba(X_test))
+    skplt.metrics.plot_roc_curve(Y_test, grid_search.predict_proba(X_test))
     plt.show()
 
 
@@ -441,7 +461,7 @@ def max_f1(model, X, y):
 
 def auc_threshold(model, threshold, X, y):
     y_predict = (model.predict_proba(X)[:, 1]>= threshold)
-    return metrics.auc(y, y_predict)
+    return metrics.roc_auc_score(y, y_predict)
 
 
 # Find threshold to maximize F1 score.
