@@ -23,8 +23,6 @@ Time,Parameter,Value
 24:53,Glucose,87
 24:53,HCO3,25
 24:53,HCT,33.7
-24:53,Mg,1.8
 24:53,Platelets,150
-24:53,K,3.8
 24:53,Na,135
 24:53,WBC,21.1

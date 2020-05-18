@@ -25,14 +25,4 @@ Time,Parameter,Value
 33:45,ALT,14
 33:45,AST,20
 33:45,Bilirubin,1.2
-33:45,BUN,28
 33:45,Cholesterol,155
-33:45,Creatinine,1.5
-33:45,Glucose,111
-33:45,HCO3,25
-33:45,HCT,37.7
-33:45,Mg,1.9
-33:45,Platelets,370
-33:45,K,3.9
-33:45,Na,141
-33:45,WBC,13.4

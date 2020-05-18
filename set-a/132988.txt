@@ -33,16 +33,6 @@ Time,Parameter,Value
 22:54,ALT,34
 22:54,AST,74
 22:54,Bilirubin,0.7
-22:54,BUN,20
-22:54,Creatinine,1.2
-22:54,Glucose,175
-22:54,HCO3,19
-22:54,HCT,34.7
-22:54,Mg,2.7
-22:54,Platelets,242
-22:54,K,4.6
-22:54,Na,142
 22:54,TroponinT,0.29
-22:54,WBC,21.9
 32:27,TroponinT,0.27
 38:01,TroponinT,0.23

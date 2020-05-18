@@ -326,7 +326,6 @@ Time,Parameter,Value
 28:47,SysABP,113
 28:47,Temp,37.1
 29:47,DiasABP,48
-29:47,FiO2,0.4
 29:47,HR,79
 29:47,MAP,71
 29:47,RespRate,19
@@ -432,9 +431,6 @@ Time,Parameter,Value
 44:17,RespRate,20
 44:17,SysABP,108
 44:17,SaO2,98
-44:21,pH,7.34
-44:21,PaCO2,35
-44:21,PaO2,129
 44:21,SaO2,98
 44:47,DiasABP,46
 44:47,HR,89
@@ -442,7 +438,6 @@ Time,Parameter,Value
 44:47,RespRate,25
 44:47,SysABP,109
 45:47,DiasABP,46
-45:47,GCS,15
 45:47,HR,90
 45:47,MAP,72
 45:47,RespRate,20
@@ -454,10 +449,4 @@ Time,Parameter,Value
 46:47,MAP,81
 46:47,RespRate,22
 46:47,SysABP,122
-46:47,Temp,37.2
-47:47,DiasABP,53
-47:47,HR,78
-47:47,MAP,76
 47:47,RespRate,21
-47:47,SysABP,114
-47:47,Urine,0

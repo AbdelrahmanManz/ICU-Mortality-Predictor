@@ -164,9 +164,6 @@ Time,Parameter,Value
 32:11,Temp,37.9
 32:11,Urine,240
 32:11,Weight,235
-32:41,HCT,23.8
-32:41,Platelets,122
-32:41,WBC,6.5
 34:11,HR,98
 34:11,Weight,235
 36:11,GCS,15
@@ -212,13 +209,5 @@ Time,Parameter,Value
 46:11,NIMAP,83.33
 46:11,NISysABP,122
 46:11,RespRate,18
-46:11,Temp,37.9
-46:11,Urine,300
 46:11,Weight,235
-47:11,GCS,15
-47:11,HR,96
-47:11,NIDiasABP,63
-47:11,NIMAP,86.33
-47:11,NISysABP,133
 47:11,RespRate,22
-47:11,Weight,235

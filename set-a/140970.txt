@@ -207,7 +207,6 @@ Time,Parameter,Value
 30:21,NISysABP,109
 30:21,RespRate,19
 30:21,Weight,81
-30:51,Urine,500
 31:21,HR,88
 31:21,NIDiasABP,62
 31:21,NIMAP,74
@@ -246,13 +245,11 @@ Time,Parameter,Value
 36:21,NISysABP,100
 36:21,RespRate,13
 36:21,Weight,81
-37:21,GCS,14
 37:21,HR,82
 37:21,NIDiasABP,55
 37:21,NIMAP,64
 37:21,NISysABP,93
 37:21,RespRate,10
-37:21,Temp,36.6
 37:21,Weight,81
 38:21,HR,80
 38:21,NIDiasABP,53
@@ -266,9 +263,4 @@ Time,Parameter,Value
 39:21,NISysABP,99
 39:21,RespRate,10
 39:21,Weight,81
-41:21,HR,81
-41:21,NIDiasABP,49
-41:21,NIMAP,60
-41:21,NISysABP,97
 41:21,RespRate,10
-41:21,Weight,81

@@ -19,13 +19,3 @@ Time,Parameter,Value
 04:47,PaCO2,51
 04:47,PaO2,70
 05:47,Lactate,1.2
-26:27,BUN,14
-26:27,Creatinine,0.5
-26:27,Glucose,91
-26:27,HCO3,31
-26:27,HCT,37.2
-26:27,Mg,1.9
-26:27,Platelets,166
-26:27,K,3.5
-26:27,Na,137
-26:27,WBC,7.9

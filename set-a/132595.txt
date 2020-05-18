@@ -28,9 +28,6 @@ Time,Parameter,Value
 08:43,HCT,27.8
 08:43,Platelets,109
 10:46,HCT,27.6
-11:59,pH,7.37
-11:59,PaCO2,36
-11:59,PaO2,165
 12:45,BUN,10
 12:45,Creatinine,0.6
 12:45,Glucose,77
@@ -58,15 +55,5 @@ Time,Parameter,Value
 24:54,Platelets,87
 26:48,HCT,28.5
 30:48,HCT,26.4
-34:47,BUN,8
-34:47,Creatinine,0.6
-34:47,Glucose,95
-34:47,HCO3,24
 34:47,HCT,26.4
-34:47,Mg,1.4
-34:47,Platelets,94
-34:47,K,4.7
-34:47,Na,139
-34:47,WBC,5.8
 38:58,HCT,23.9
-44:39,HCT,26.9

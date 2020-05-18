@@ -29,16 +29,6 @@ Time,Parameter,Value
 30:09,Creatinine,0.6
 30:09,Glucose,113
 30:09,HCO3,26
-30:09,HCT,29.7
 30:09,Mg,2.1
-30:09,Platelets,154
 30:09,K,3.7
 30:09,Na,138
-30:09,WBC,7.4
-40:26,BUN,8
-40:26,Creatinine,0.6
-40:26,Glucose,125
-40:26,HCO3,24
-40:26,Mg,2
-40:26,K,3.5
-40:26,Na,139

@@ -41,9 +41,6 @@ Time,Parameter,Value
 30:08,Mg,1.5
 30:08,K,3.5
 30:08,Na,147
-35:38,pH,7.38
-35:38,PaCO2,38
-35:38,PaO2,88
 37:27,Albumin,2.1
 37:27,ALP,61
 37:27,ALT,10
@@ -53,15 +50,5 @@ Time,Parameter,Value
 37:27,Creatinine,0.6
 37:27,Glucose,64
 37:27,HCO3,16
-37:27,HCT,35.4
-37:27,Mg,2.2
-37:27,Platelets,317
 37:27,K,3.7
 37:27,Na,148
-37:27,WBC,18.5
-47:50,BUN,15
-47:50,Creatinine,0.6
-47:50,Glucose,104
-47:50,HCO3,24
-47:50,K,3.7
-47:50,Na,148

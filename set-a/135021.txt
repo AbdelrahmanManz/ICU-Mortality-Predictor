@@ -427,7 +427,6 @@ Time,Parameter,Value
 43:58,Urine,32
 43:58,Weight,84.2
 45:58,DiasABP,56
-45:58,GCS,7
 45:58,HR,65
 45:58,MAP,83
 45:58,SysABP,148
@@ -435,17 +434,9 @@ Time,Parameter,Value
 45:58,Urine,45
 45:58,Weight,84.2
 46:58,DiasABP,69
-46:58,FiO2,0.5
 46:58,HR,67
 46:58,MAP,96
 46:58,MechVent,1
 46:58,SysABP,151
 46:58,Temp,37.2
 46:58,Weight,84.2
-47:58,DiasABP,76
-47:58,HR,69
-47:58,MAP,97
-47:58,SysABP,130
-47:58,Temp,37.2
-47:58,Urine,45
-47:58,Weight,84.2

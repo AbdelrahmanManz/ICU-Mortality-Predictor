@@ -28,13 +28,3 @@ Time,Parameter,Value
 40:55,ALT,16
 40:55,AST,16
 40:55,Bilirubin,1
-40:55,BUN,11
-40:55,Creatinine,0.6
-40:55,Glucose,102
-40:55,HCO3,22
-40:55,HCT,27.7
-40:55,Mg,1.5
-40:55,Platelets,23
-40:55,K,3.4
-40:55,Na,140
-40:55,WBC,0.4

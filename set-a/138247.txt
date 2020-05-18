@@ -75,7 +75,6 @@ Time,Parameter,Value
 07:10,NIDiasABP,78
 07:10,NIMAP,95
 07:10,NISysABP,153
-07:10,Temp,37.6
 07:10,Urine,50
 07:10,Weight,72
 08:10,HR,101
@@ -99,8 +98,6 @@ Time,Parameter,Value
 10:10,NISysABP,139
 10:10,Urine,25
 10:10,Weight,72
-11:10,FiO2,0.4
-11:10,GCS,6
 11:10,HR,106
 11:10,MechVent,1
 11:10,NIDiasABP,84
@@ -190,13 +187,7 @@ Time,Parameter,Value
 40:10,NISysABP,87
 40:10,Weight,72
 43:10,HR,142
-43:10,NIDiasABP,50
-43:10,NIMAP,63
-43:10,NISysABP,102
 43:10,Urine,18
 43:10,Weight,72
 44:10,HR,141
 44:10,Weight,72
-47:10,HR,139
-47:10,Urine,30
-47:10,Weight,72

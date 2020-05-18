@@ -360,13 +360,4 @@ Time,Parameter,Value
 46:51,SysABP,141
 46:51,Urine,100
 46:51,Weight,58.5
-47:51,DiasABP,47
-47:51,FiO2,0.5
-47:51,GCS,11
-47:51,HR,80
-47:51,MAP,85
 47:51,MechVent,1
-47:51,SysABP,140
-47:51,Temp,38.4
-47:51,Urine,100
-47:51,Weight,58.5

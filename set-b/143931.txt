@@ -154,7 +154,6 @@ Time,Parameter,Value
 07:23,HCO3,28
 07:23,HCT,26.7
 07:23,Mg,3.3
-07:23,Platelets,166
 07:23,K,5.5
 07:23,Na,136
 07:23,WBC,6
@@ -406,7 +405,6 @@ Time,Parameter,Value
 16:38,Temp,36.6
 16:38,Urine,25
 16:38,Weight,59.2
-16:48,FiO2,0.3
 16:48,MechVent,1
 17:38,DiasABP,50
 17:38,HR,80
@@ -420,7 +418,6 @@ Time,Parameter,Value
 17:43,PaO2,132
 17:43,SaO2,98
 18:38,DiasABP,46
-18:38,FiO2,0.3
 18:38,HR,80
 18:38,MAP,67
 18:38,MechVent,1
@@ -530,8 +527,6 @@ Time,Parameter,Value
 25:38,Temp,36.7
 25:38,Urine,21
 25:38,Weight,59.2
-26:06,HCT,29.5
-26:06,Mg,2.4
 26:26,pH,7.34
 26:26,PaCO2,54
 26:26,PaO2,161
@@ -580,12 +575,6 @@ Time,Parameter,Value
 29:38,Temp,36.9
 29:38,Urine,260
 29:38,Weight,59.2
-30:03,BUN,19
-30:03,Creatinine,1
-30:03,HCT,30.2
-30:03,Mg,2.2
-30:03,Platelets,142
-30:03,WBC,7.8
 30:33,pH,7.37
 30:33,Lactate,1.7
 30:33,PaCO2,52
@@ -699,9 +688,6 @@ Time,Parameter,Value
 38:38,Temp,37.1
 38:38,Urine,300
 38:38,Weight,59.2
-39:31,pH,7.4
-39:31,PaCO2,51
-39:31,PaO2,77
 39:31,SaO2,96
 39:38,DiasABP,51
 39:38,GCS,15
@@ -734,7 +720,6 @@ Time,Parameter,Value
 41:38,Urine,240
 41:38,Weight,59.2
 42:38,DiasABP,64
-42:38,GCS,15
 42:38,HR,77
 42:38,MAP,100
 42:38,NIDiasABP,59
@@ -762,7 +747,6 @@ Time,Parameter,Value
 44:38,NIMAP,69.67
 44:38,NISysABP,119
 44:38,SysABP,129
-44:38,Temp,37.9
 44:38,Urine,32
 44:38,Weight,59.2
 45:38,DiasABP,60
@@ -775,9 +759,6 @@ Time,Parameter,Value
 45:38,SysABP,110
 45:38,Urine,35
 45:38,Weight,59.2
-45:47,pH,7.39
-45:47,PaCO2,51
-45:47,PaO2,146
 45:47,SaO2,98
 46:38,DiasABP,62
 46:38,HR,70
@@ -786,25 +767,11 @@ Time,Parameter,Value
 46:38,NIMAP,73.33
 46:38,NISysABP,128
 46:38,SysABP,153
-46:38,Urine,20
 46:38,Weight,59.2
 47:38,DiasABP,69
-47:38,GCS,15
-47:38,HR,76
 47:38,MAP,107
 47:38,MechVent,1
 47:38,NIDiasABP,67
 47:38,NIMAP,87.33
 47:38,NISysABP,128
 47:38,SysABP,162
-47:38,Temp,37.3
-47:38,Urine,25
-47:38,Weight,59.2
-47:53,DiasABP,68
-47:53,HR,73
-47:53,MAP,108
-47:53,NIDiasABP,59
-47:53,NIMAP,95.67
-47:53,NISysABP,169
-47:53,SysABP,166
-47:53,Weight,59.2

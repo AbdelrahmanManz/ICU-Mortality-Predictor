@@ -226,9 +226,6 @@ Time,Parameter,Value
 32:40,SysABP,171
 32:40,Urine,240
 32:40,Weight,104.2
-32:51,pH,7.45
-32:51,PaCO2,47
-32:51,PaO2,87
 33:40,DiasABP,63
 33:40,HR,73
 33:40,MAP,99
@@ -298,7 +295,6 @@ Time,Parameter,Value
 43:40,MAP,103
 43:40,MechVent,1
 43:40,SysABP,158
-43:40,Temp,37.4
 43:40,Urine,60
 43:40,Weight,104.2
 44:40,DiasABP,66
@@ -316,14 +312,6 @@ Time,Parameter,Value
 46:40,HR,80
 46:40,MAP,103
 46:40,SysABP,164
-46:40,Urine,75
 47:10,FiO2,0.5
 47:10,MechVent,1
-47:40,DiasABP,86
-47:40,FiO2,0.5
-47:40,GCS,11
-47:40,HR,77
-47:40,MAP,116
 47:40,MechVent,1
-47:40,SysABP,155
-47:40,Weight,104.2

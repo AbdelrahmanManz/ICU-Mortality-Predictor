@@ -39,9 +39,6 @@ Time,Parameter,Value
 14:27,PaO2,92
 14:27,SaO2,96
 15:27,Lactate,0.8
-15:29,pH,7.34
-15:29,PaCO2,34
-15:29,PaO2,162
 16:29,Lactate,1.1
 18:09,BUN,13
 18:09,Creatinine,0.7
@@ -54,16 +51,6 @@ Time,Parameter,Value
 18:09,Na,142
 18:09,TroponinT,1.02
 18:09,WBC,8.4
-26:23,BUN,14
-26:23,Creatinine,0.9
-26:23,Glucose,133
-26:23,HCO3,19
 26:23,HCT,27.2
-26:23,Mg,2.4
-26:23,Platelets,118
-26:23,K,4
-26:23,Na,141
 26:23,TroponinT,1.18
-26:23,WBC,13.3
-33:03,HCT,32.9
 33:03,TroponinT,0.64

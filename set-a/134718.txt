@@ -577,10 +577,8 @@ Time,Parameter,Value
 43:15,MAP,79
 43:15,RespRate,13
 43:15,SysABP,138
-43:15,Temp,37.8
 43:15,Urine,40
 44:15,DiasABP,51
-44:15,GCS,15
 44:15,HR,84
 44:15,MAP,79
 44:15,RespRate,16
@@ -596,9 +594,4 @@ Time,Parameter,Value
 46:15,MAP,78
 46:15,RespRate,14
 46:15,SysABP,139
-47:15,DiasABP,46
-47:15,HR,84
-47:15,MAP,74
 47:15,RespRate,13
-47:15,SysABP,135
-47:15,Urine,40

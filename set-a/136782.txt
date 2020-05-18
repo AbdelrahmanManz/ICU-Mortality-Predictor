@@ -121,7 +121,6 @@ Time,Parameter,Value
 14:18,RespRate,20
 14:18,Temp,38
 14:18,Urine,160
-15:18,FiO2,0.5
 15:18,HR,97
 15:18,NIDiasABP,65
 15:18,NIMAP,80
@@ -276,9 +275,6 @@ Time,Parameter,Value
 31:18,NISysABP,97
 31:18,RespRate,27
 31:18,Urine,160
-31:55,HCT,35.6
-31:55,Platelets,263
-31:55,WBC,12.3
 32:18,HR,99
 32:18,NIDiasABP,62
 32:18,NIMAP,80
@@ -308,13 +304,6 @@ Time,Parameter,Value
 35:48,ALT,22
 35:48,AST,36
 35:48,Bilirubin,0.4
-35:48,BUN,5
-35:48,Creatinine,0.4
-35:48,Glucose,128
-35:48,HCO3,23
-35:48,Mg,1.7
-35:48,K,3.7
-35:48,Na,141
 36:18,HR,118
 36:18,NIDiasABP,54
 36:18,NIMAP,68
@@ -333,7 +322,6 @@ Time,Parameter,Value
 38:18,NIMAP,69
 38:18,NISysABP,98
 38:18,RespRate,16
-38:18,Urine,140
 39:18,HR,104
 39:18,NIDiasABP,59
 39:18,NIMAP,75
@@ -344,10 +332,4 @@ Time,Parameter,Value
 40:18,NIMAP,70
 40:18,NISysABP,98
 40:18,RespRate,23
-41:18,GCS,15
-41:18,HR,114
-41:18,NIDiasABP,48
-41:18,NIMAP,65
-41:18,NISysABP,95
 41:18,RespRate,19
-41:18,Temp,38.6

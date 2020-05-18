@@ -28,16 +28,6 @@ Time,Parameter,Value
 22:28,WBC,0.6
 22:35,Lactate,0.7
 23:06,HCT,21.7
-33:54,BUN,5
-33:54,Creatinine,0.1
-33:54,Glucose,182
-33:54,HCO3,25
 33:54,HCT,21.1
-33:54,HCT,34
-33:54,Mg,1.3
 33:54,Platelets,28
-33:54,Platelets,21
-33:54,K,4.2
-33:54,Na,133
 33:54,WBC,0.9
-33:54,WBC,0.6

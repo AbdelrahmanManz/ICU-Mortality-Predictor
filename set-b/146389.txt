@@ -15,13 +15,3 @@ Time,Parameter,Value
 03:41,K,3.6
 03:41,Na,140
 03:41,WBC,6.9
-28:09,BUN,4
-28:09,Creatinine,0.3
-28:09,Glucose,87
-28:09,HCO3,30
-28:09,HCT,31.1
-28:09,Mg,1.8
-28:09,Platelets,304
-28:09,K,4.1
-28:09,Na,140
-28:09,WBC,6.6

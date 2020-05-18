@@ -49,16 +49,3 @@ Time,Parameter,Value
 39:42,ALT,31
 39:42,AST,39
 39:42,Bilirubin,0.5
-39:42,BUN,10
-39:42,Creatinine,0.6
-39:42,Glucose,155
-39:42,HCO3,29
-39:42,HCT,42.4
-39:42,Mg,2.2
-39:42,Platelets,260
-39:42,K,5.1
-39:42,Na,144
-39:42,WBC,5.9
-39:53,pH,7.35
-39:53,PaCO2,57
-39:53,PaO2,89

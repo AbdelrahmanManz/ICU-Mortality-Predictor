@@ -358,7 +358,6 @@ Time,Parameter,Value
 36:22,FiO2,1
 36:22,MechVent,1
 36:27,DiasABP,73
-36:27,GCS,3
 36:27,HR,111
 36:27,MAP,94
 36:27,NIDiasABP,73
@@ -542,7 +541,6 @@ Time,Parameter,Value
 43:52,SysABP,109
 43:52,Weight,65.5
 44:27,DiasABP,67
-44:27,FiO2,0.7
 44:27,HR,103
 44:27,MAP,80
 44:27,MechVent,1
@@ -557,9 +555,6 @@ Time,Parameter,Value
 44:32,NISysABP,119
 44:32,SysABP,117
 44:32,Weight,65.5
-44:59,pH,7.31
-44:59,PaCO2,38
-44:59,PaO2,85
 45:27,DiasABP,77
 45:27,HR,99
 45:27,MAP,95
@@ -582,10 +577,3 @@ Time,Parameter,Value
 46:02,NISysABP,135
 46:02,SysABP,136
 46:02,Weight,65.5
-47:27,DiasABP,67
-47:27,HR,104
-47:27,MAP,82
-47:27,SysABP,100
-47:27,Temp,35.1
-47:27,Urine,500
-47:27,Weight,65.5

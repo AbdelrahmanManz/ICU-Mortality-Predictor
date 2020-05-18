@@ -151,7 +151,6 @@ Time,Parameter,Value
 07:01,PaO2,174
 07:01,SaO2,98
 07:52,DiasABP,55
-07:52,FiO2,0.4
 07:52,GCS,11
 07:52,HR,110
 07:52,MAP,69
@@ -179,8 +178,6 @@ Time,Parameter,Value
 09:52,Temp,38.6
 09:52,Urine,130
 10:51,pH,7.43
-10:51,PaCO2,39
-10:51,PaO2,160
 10:52,DiasABP,55
 10:52,HR,114
 10:52,MAP,74
@@ -300,7 +297,6 @@ Time,Parameter,Value
 23:52,Urine,120
 23:52,Weight,61.5
 23:59,Mg,1.8
-24:11,pH,7.47
 24:22,DiasABP,48
 24:22,HR,90
 24:22,MAP,66
@@ -404,16 +400,8 @@ Time,Parameter,Value
 37:52,SysABP,127
 37:52,Urine,220
 37:52,Weight,61.5
-38:48,BUN,8
-38:48,Creatinine,0.5
-38:48,Glucose,247
-38:48,HCO3,25
-38:48,HCT,24.4
 38:48,Mg,1.9
-38:48,Platelets,246
 38:48,K,4.9
-38:48,Na,134
-38:48,WBC,15.7
 38:52,DiasABP,62
 38:52,HR,103
 38:52,MAP,84
@@ -450,7 +438,6 @@ Time,Parameter,Value
 43:52,NIDiasABP,60
 43:52,NIMAP,80
 43:52,NISysABP,120
-43:52,Temp,37.1
 43:52,Urine,220
 43:52,Weight,62
 44:52,HR,100
@@ -459,8 +446,6 @@ Time,Parameter,Value
 44:52,NISysABP,127
 44:52,Urine,400
 44:52,Weight,62
-45:34,Mg,2.1
-45:34,K,4
 45:52,HR,85
 45:52,NIDiasABP,53
 45:52,NIMAP,68.67
@@ -471,11 +456,4 @@ Time,Parameter,Value
 46:52,NIDiasABP,51
 46:52,NIMAP,66
 46:52,NISysABP,96
-46:52,Urine,220
 46:52,Weight,62
-47:52,GCS,15
-47:52,HR,79
-47:52,NIDiasABP,54
-47:52,NIMAP,71.67
-47:52,NISysABP,107
-47:52,Weight,62

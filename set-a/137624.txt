@@ -276,9 +276,6 @@ Time,Parameter,Value
 41:39,MAP,77
 41:39,RespRate,22
 41:39,SysABP,119
-42:14,Glucose,127
-42:14,K,4.1
-42:14,Na,133
 42:39,DiasABP,56
 42:39,GCS,15
 42:39,HR,68
@@ -303,15 +300,8 @@ Time,Parameter,Value
 45:39,RespRate,30
 45:39,SysABP,117
 46:39,DiasABP,52
-46:39,GCS,15
 46:39,HR,69
 46:39,MAP,71
 46:39,RespRate,24
 46:39,SysABP,107
-46:39,Temp,37.4
-46:39,Urine,600
-47:39,DiasABP,55
-47:39,HR,72
-47:39,MAP,74
 47:39,RespRate,16
-47:39,SysABP,112

@@ -217,11 +217,8 @@ Time,Parameter,Value
 30:02,RespRate,19
 30:02,Urine,200
 30:02,Weight,163.5
-30:25,BUN,14
-30:25,Creatinine,0.9
 30:25,Glucose,127
 30:25,HCO3,26
-30:25,HCT,28.1
 30:25,Platelets,201
 30:25,K,4.6
 30:25,Na,132
@@ -267,13 +264,5 @@ Time,Parameter,Value
 41:02,Urine,400
 41:02,Weight,163.5
 43:02,Urine,250
-45:02,GCS,15
-45:02,HR,95
-45:02,NIDiasABP,54
-45:02,NIMAP,73.33
-45:02,NISysABP,112
 45:02,RespRate,21
-45:02,Temp,37.9
 45:02,Urine,300
-45:02,Weight,163.5
-47:02,Urine,550

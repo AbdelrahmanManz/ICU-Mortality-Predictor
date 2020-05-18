@@ -26,14 +26,4 @@ Time,Parameter,Value
 22:27,HCT,29.6
 27:06,HCT,27.6
 32:35,Albumin,3.4
-32:35,BUN,8
-32:35,Creatinine,0.6
-32:35,Glucose,128
-32:35,HCO3,26
-32:35,HCT,25.7
-32:35,Mg,1.9
-32:35,Platelets,152
 32:35,K,6.2
-32:35,Na,137
-32:35,WBC,9.4
-34:25,K,3.9

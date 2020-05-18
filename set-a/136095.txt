@@ -431,7 +431,6 @@ Time,Parameter,Value
 46:16,NIMAP,67
 46:16,NISysABP,95
 46:16,RespRate,20
-46:16,Temp,35.8
 46:16,Weight,98.8
 46:19,HR,81
 46:19,NIDiasABP,52
@@ -455,16 +454,6 @@ Time,Parameter,Value
 46:56,NIMAP,69.67
 46:56,NISysABP,97
 46:56,Weight,98.8
-46:59,BUN,9
-46:59,Creatinine,0.6
-46:59,Glucose,79
-46:59,HCO3,24
-46:59,HCT,29.3
-46:59,Mg,1.7
-46:59,Platelets,296
-46:59,K,4.2
-46:59,Na,143
-46:59,WBC,5
 47:06,HR,78
 47:06,NIDiasABP,52
 47:06,NIMAP,67
@@ -477,11 +466,4 @@ Time,Parameter,Value
 47:36,NISysABP,105
 47:36,RespRate,22
 47:36,Weight,98.8
-47:46,GCS,15
-47:46,HR,83
-47:46,NIDiasABP,53
-47:46,NIMAP,68.33
-47:46,NISysABP,99
 47:46,RespRate,19
-47:46,Urine,320
-47:46,Weight,98.8

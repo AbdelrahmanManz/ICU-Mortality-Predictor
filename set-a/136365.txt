@@ -203,7 +203,6 @@ Time,Parameter,Value
 15:43,PaO2,89
 15:43,SaO2,97
 16:24,DiasABP,55
-16:24,FiO2,0.5
 16:24,GCS,15
 16:24,HR,100
 16:24,MAP,72
@@ -227,8 +226,6 @@ Time,Parameter,Value
 17:54,Na,141
 17:54,WBC,9.6
 18:10,pH,7.43
-18:10,PaCO2,36
-18:10,PaO2,73
 18:10,SaO2,96
 18:24,DiasABP,55
 18:24,GCS,15
@@ -339,7 +336,6 @@ Time,Parameter,Value
 33:31,Glucose,103
 33:31,Mg,1.7
 33:31,K,4
-33:47,pH,7.46
 34:24,DiasABP,58
 34:24,GCS,15
 34:24,HR,98
@@ -402,11 +398,9 @@ Time,Parameter,Value
 43:24,SysABP,93
 43:24,Urine,100
 44:24,DiasABP,52
-44:24,GCS,15
 44:24,HR,94
 44:24,MAP,71
 44:24,SysABP,115
-44:24,Temp,37.1
 44:24,Urine,60
 45:24,DiasABP,55
 45:24,HR,98
@@ -418,18 +412,3 @@ Time,Parameter,Value
 46:24,MAP,67
 46:24,SysABP,93
 46:24,Urine,140
-47:24,BUN,4
-47:24,Creatinine,0.4
-47:24,DiasABP,56
-47:24,Glucose,110
-47:24,HCO3,27
-47:24,HCT,31.6
-47:24,HR,97
-47:24,Mg,1.8
-47:24,MAP,76
-47:24,Platelets,201
-47:24,K,4
-47:24,Na,139
-47:24,SysABP,122
-47:24,Urine,110
-47:24,WBC,8.1

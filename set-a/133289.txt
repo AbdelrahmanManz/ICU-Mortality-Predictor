@@ -292,12 +292,4 @@ Time,Parameter,Value
 46:43,RespRate,23
 46:43,Urine,400
 46:43,Weight,81
-47:43,GCS,15
-47:43,HR,89
-47:43,NIDiasABP,57
-47:43,NIMAP,79
-47:43,NISysABP,123
 47:43,RespRate,18
-47:43,Temp,36.5
-47:43,Urine,400
-47:43,Weight,81

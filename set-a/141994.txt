@@ -22,7 +22,6 @@ Time,Parameter,Value
 02:52,Urine,240
 04:16,FiO2,0.4
 04:16,MechVent,1
-06:52,FiO2,0.4
 06:52,GCS,6
 06:52,HR,86
 06:52,MechVent,1
@@ -68,7 +67,6 @@ Time,Parameter,Value
 14:52,NIDiasABP,45
 14:52,NIMAP,52
 14:52,NISysABP,72
-14:52,Temp,34.6
 14:52,Urine,60
 15:52,HR,63
 15:52,NIDiasABP,40
@@ -102,7 +100,6 @@ Time,Parameter,Value
 21:52,NIDiasABP,40
 21:52,NIMAP,46
 21:52,NISysABP,68
-22:52,GCS,3
 22:52,HR,54
 22:52,NIDiasABP,40
 22:52,NIMAP,48
@@ -133,10 +130,5 @@ Time,Parameter,Value
 41:52,Urine,20
 44:52,HR,79
 44:52,NIDiasABP,42
-44:52,NIMAP,46
 44:52,NISysABP,67
 44:52,Urine,30
-46:52,HR,78
-46:52,NIDiasABP,32
-46:52,NISysABP,63
-46:52,Urine,10

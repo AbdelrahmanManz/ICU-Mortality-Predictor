@@ -184,7 +184,6 @@ Time,Parameter,Value
 11:12,Glucose,133
 11:12,HCO3,32
 11:12,HCT,28.3
-11:12,Mg,2.5
 11:12,Platelets,123
 11:12,K,4.5
 11:12,Na,141
@@ -412,13 +411,7 @@ Time,Parameter,Value
 36:02,Temp,36.1
 36:02,Urine,90
 36:02,Weight,85
-36:47,BUN,47
-36:47,Creatinine,0.8
-36:47,Glucose,140
-36:47,HCO3,28
 36:47,HCT,29.7
-36:47,K,4.2
-36:47,Na,140
 36:47,TroponinI,15.8
 37:02,HR,84
 37:02,NIDiasABP,38
@@ -451,10 +444,6 @@ Time,Parameter,Value
 42:02,Temp,36.7
 42:02,Urine,160
 42:02,Weight,85
-43:02,HCT,29.7
-43:02,Platelets,102
-43:02,WBC,13.2
-44:02,GCS,15
 44:02,HR,91
 44:02,NIDiasABP,33
 44:02,NIMAP,68.67
@@ -462,11 +451,4 @@ Time,Parameter,Value
 44:02,RespRate,22
 44:02,Urine,140
 44:02,Weight,85
-46:02,HR,94
-46:02,NIDiasABP,52
-46:02,NIMAP,83
-46:02,NISysABP,145
 46:02,RespRate,22
-46:02,Temp,36.7
-46:02,Urine,500
-46:02,Weight,85

@@ -83,14 +83,7 @@ Time,Parameter,Value
 10:03,NISysABP,119
 10:03,RespRate,18
 10:03,Weight,89.2
-11:03,GCS,15
 11:03,HR,92
-11:03,NIDiasABP,79
-11:03,NIMAP,86
-11:03,NISysABP,110
 11:03,RespRate,15
-11:03,Temp,36
 11:03,Weight,89.2
-12:03,HR,80
 12:03,RespRate,21
-12:03,Weight,89.2

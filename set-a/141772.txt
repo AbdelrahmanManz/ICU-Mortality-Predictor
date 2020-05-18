@@ -69,9 +69,4 @@ Time,Parameter,Value
 05:10,RespRate,19
 05:10,Weight,69
 05:38,TroponinT,0.22
-05:40,HR,114
-05:40,NIDiasABP,72
-05:40,NIMAP,91.67
-05:40,NISysABP,131
 05:40,RespRate,23
-05:40,Weight,69

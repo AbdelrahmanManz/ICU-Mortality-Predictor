@@ -53,16 +53,3 @@ Time,Parameter,Value
 33:43,Lactate,2.6
 33:43,PaCO2,39
 33:43,PaO2,75
-38:59,BUN,11
-38:59,Creatinine,0.7
-38:59,Glucose,115
-38:59,HCO3,27
-38:59,HCT,34.9
-38:59,Mg,2.3
-38:59,Platelets,355
-38:59,K,3.7
-38:59,Na,143
-38:59,WBC,20
-47:43,pH,7.43
-47:43,PaCO2,41
-47:43,PaO2,82

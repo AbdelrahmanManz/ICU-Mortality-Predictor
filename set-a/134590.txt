@@ -135,16 +135,6 @@ Time,Parameter,Value
 33:46,SaO2,96
 33:46,Temp,36.8
 33:46,Weight,62.3
-34:39,BUN,33
-34:39,Creatinine,7
-34:39,Glucose,168
-34:39,HCO3,25
-34:39,HCT,30.3
-34:39,Mg,1.7
-34:39,Platelets,151
-34:39,K,4.3
-34:39,Na,138
-34:39,WBC,9.5
 35:46,DiasABP,55
 35:46,GCS,15
 35:46,HR,72
@@ -199,10 +189,3 @@ Time,Parameter,Value
 44:46,MAP,91
 44:46,SysABP,121
 44:46,Weight,62.3
-45:46,DiasABP,57
-45:46,GCS,15
-45:46,HR,66
-45:46,MAP,87
-45:46,SysABP,120
-45:46,Temp,37.2
-45:46,Weight,62.3

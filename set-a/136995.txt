@@ -286,7 +286,6 @@ Time,Parameter,Value
 27:52,NISysABP,103
 27:52,RespRate,16
 27:52,SysABP,98
-27:52,Urine,150
 28:52,DiasABP,66
 28:52,HR,89
 28:52,MAP,84
@@ -409,10 +408,4 @@ Time,Parameter,Value
 42:52,NISysABP,100
 42:52,RespRate,15
 42:52,Temp,36.7
-47:52,GCS,15
-47:52,HR,72
-47:52,NIDiasABP,65
-47:52,NIMAP,87.67
-47:52,NISysABP,133
 47:52,RespRate,17
-47:52,Temp,36.9

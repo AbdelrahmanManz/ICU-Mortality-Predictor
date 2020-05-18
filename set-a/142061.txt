@@ -23,14 +23,4 @@ Time,Parameter,Value
 15:51,WBC,11.2
 19:31,HCT,27
 27:31,HCT,26.9
-42:26,BUN,17
-42:26,Creatinine,1
-42:26,Glucose,95
-42:26,HCO3,25
-42:26,HCT,29.8
-42:26,Mg,1.8
-42:26,Platelets,270
-42:26,K,3.7
-42:26,Na,140
 42:26,TroponinI,8
-42:26,WBC,11

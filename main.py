@@ -16,9 +16,10 @@ from sklearn.utils import resample
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.decomposition import PCA
 import statsmodels.imputation.mice as smi
+import math
 import pickle
 
-directory = 'set-b'
+directory = 'set-a'
 
 
 def formatDataLastHour():
@@ -106,9 +107,9 @@ def formatDataWithAgg():
         updatedVariables.append(variable)
 
     res = str(updatedVariables).replace("'","").replace(" ","").strip("[").strip("]")+",death"+"\n"
-    with open('Outcomes-b.txt', mode='r') as infile:
+    with open('Outcomes-a.txt', mode='r') as infile:
         reader = csv.reader(infile)
-        with open('ReformattedTest.csv', mode='w') as outfile:
+        with open('ReformattedSet.csv', mode='w') as outfile:
             writer = csv.writer(outfile)
             mydict = {rows[0]: rows[5] for rows in reader}
             for filename in os.listdir(directory):
@@ -177,24 +178,24 @@ def imputate():
     # df = df.loc[df['ICUType'] == 1]
     # df2 = df2.loc[df2['ICUType'] == 1]
     ##################
-    # values = df.values
-    # values2 = df2.values
-    # imputer = SimpleImputer()
-    # train = imputer.fit_transform(values)
-    # test = imputer.fit_transform(values2)
+    values = df.values
+    values2 = df2.values
+    imputer = SimpleImputer()
+    train = imputer.fit_transform(values)
+    test = imputer.fit_transform(values2)
     # #################################################
     # traindf = impute(df)
     # testdf = impute(df2)
     # traindf.to_pickle("./traindf.pkl")
     # testdf.to_pickle("./testdf.pkl")
     #################
-    traindf = pd.read_pickle("./traindf.pkl")
-    testdf = pd.read_pickle("./testdf.pkl")
+    # traindf = pd.read_pickle("./traindf.pkl")
+    # testdf = pd.read_pickle("./testdf.pkl")
     # testdf = testdf.loc[df2['ICUType'] == 4]
     ###################################################
 
-    train = traindf.values
-    test = testdf.values
+    # train = traindf.values
+    # test = testdf.values
     # FeatureEngineering(df)
     # count the number of NaN values in each column
     # print(np.isnan(train).sum())
@@ -425,6 +426,7 @@ def xgbTrain():
     print(confusion_matrix(Y_test, Y_pred))
     print(classification_report(Y_test, Y_pred))
     # print(max_f1(grid_search, X_test, Y_test))
+    # print(max_sco(grid_search, X_test, Y_test))
     print(grid_search.best_params_)
     # diffs = Y_test - Y_pred
     # i = 0
@@ -436,9 +438,9 @@ def xgbTrain():
     #     i+=1
     # print("Keys: ", Counter(icus).keys())  # equals to list(set(words))
     # print("Values: ",Counter(icus).values())  # counts the elements' frequency
-    # skplt.metrics.plot_confusion_matrix(Y_test, Y_pred, normalize=True)
+    skplt.metrics.plot_confusion_matrix(Y_test, Y_pred, normalize=True)
     # skplt.metrics.plot_precision_recall_curve(Y_test, grid_search.predict_proba(X_test))
-    skplt.metrics.plot_roc_curve(Y_test, grid_search.predict_proba(X_test))
+    # skplt.metrics.plot_roc_curve(Y_test, grid_search.predict_proba(X_test))
     plt.show()
 
 
@@ -463,6 +465,17 @@ def auc_threshold(model, threshold, X, y):
     y_predict = (model.predict_proba(X)[:, 1]>= threshold)
     return metrics.roc_auc_score(y, y_predict)
 
+def max_sco(model, X, y):
+    threshold = -1
+    score = 1
+    for i in np.linspace(0, .6, 1001):
+        y_predict = (model.predict_proba(X)[:, 1]>= i)
+        temp = abs(metrics.precision_score(y, y_predict) - metrics.recall_score(y, y_predict))
+        if temp < score:
+            threshold = i
+            score = temp
+    y_pr = (model.predict_proba(X)[:, 1] >= threshold)
+    return [threshold, metrics.precision_score(y, y_pr), metrics.recall_score(y, y_pr)]
 
 # Find threshold to maximize F1 score.
 def max_auc(model, X, y):

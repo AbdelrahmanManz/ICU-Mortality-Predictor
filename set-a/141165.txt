@@ -26,13 +26,3 @@ Time,Parameter,Value
 37:20,K,3.2
 37:20,Na,140
 37:20,TroponinT,0.2
-46:53,BUN,16
-46:53,Creatinine,0.6
-46:53,Glucose,112
-46:53,HCO3,28
-46:53,HCT,32.1
-46:53,Mg,2.1
-46:53,Platelets,215
-46:53,K,3.7
-46:53,Na,144
-46:53,WBC,11.5

@@ -98,15 +98,7 @@ Time,Parameter,Value
 14:44,NISysABP,127
 14:44,RespRate,16
 14:44,Weight,103
-15:14,GCS,15
 15:14,HR,82
 15:14,RespRate,15
-15:14,Urine,70
 15:14,Weight,103
-15:44,HR,78
-15:44,NIDiasABP,78
-15:44,NIMAP,93
-15:44,NISysABP,123
 15:44,RespRate,14
-15:44,Temp,36.8
-15:44,Weight,103
